@@ -10,8 +10,7 @@ body {
   #container {
     display: flex;
     flex-wrap: wrap;
-    width: 640px; /* 16 squares of 40px width each */
-    height: 640px; /* 16 squares of 40px height each */
+    justify-content: center;
     border: 2px solid black;
   }
 
@@ -20,7 +19,6 @@ body {
     height: 40px;
     background-color: #fff;
     border: 1px solid #ccc;
-    box-sizing: border-box;
   }
 
   .grid-square:hover {
